@@ -253,7 +253,7 @@ model = LiteLlm(
     #model="openai/gpt-oss-120b", 
     model= "openai/Qwen3.6-35B-A3B-FP8",
     api_base="https://api.poligpt.upv.es/",
-    api_key="sk-LFXs1kjaSxtEDgOMlPUOpA"
+    api_key= None #Para que funcione, debes tener una API key para acceder al modelo de la UPV
 )
 
 structural_agent = LlmAgent(
